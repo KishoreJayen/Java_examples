@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class Palindrome {
 
 	public static void main(String[] args) {
-	/*	Scanner s=new Scanner (System.in);
+	Scanner s=new Scanner (System.in);
 		System.out.println("Enter the String: ");
 		String str1=s.next();
 		StringBuffer sc=new StringBuffer(str1);
@@ -17,13 +17,13 @@ public class Palindrome {
 		
 		
 	}
-}*/
+}
 		            // Palindrome Number & String /*******
 		
 		
 		
 	
-		Scanner s= new Scanner (System.in);
+	/*	Scanner s= new Scanner (System.in);
 		System.out.println("Enter the Number: ");
 		int n=s.nextInt();
 		int temp=n, result, sum=0;
@@ -38,4 +38,4 @@ public class Palindrome {
 			System.out.println("Not a Palindrome: "+sum);
 	}
 
-}
+}*/
