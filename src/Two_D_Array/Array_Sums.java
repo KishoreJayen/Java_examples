@@ -53,3 +53,27 @@ public class Array_Sums {
 	   }
 	}
 }
+
+
+
+
+
+
+
+
+
+
+/*  int a [] = {1,5,6};
+int b[] = {2,5,2,};
+
+int c[]= new int [b.length];
+
+for(int i=0; i<c.length; i++) {
+	
+	c[i] = a[i] *  b[i];
+	 
+System.out.print(c[i]+ " ");
+ 
+}
+}
+}*/

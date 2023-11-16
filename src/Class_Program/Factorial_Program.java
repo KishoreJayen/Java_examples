@@ -5,7 +5,11 @@ import java.util.Scanner;
 public class Factorial_Program {
 
 	public static void main(String[] args) {
-      System.out.print("Enter the Number: ");
+     
+		
+		
+		
+		 System.out.print("Enter the Number: ");
 int fact=1;
 Scanner s=new Scanner (System.in);
 int n = s.nextInt();
@@ -16,3 +20,5 @@ System.out.println(fact);
 }
 
 }
+
+		

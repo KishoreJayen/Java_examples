@@ -7,10 +7,10 @@ public class Reverse_Number {
 	public static void main(String[] args) {
 		
 		System.out.print("Enter the Reverse Number: ");
-//		int n, sum=0,result;
-		Integer  sum=0,result;
-		int n;
-//		String s = sum.toString();
+        int n, sum=0,result;
+		
+		
+//	String s = sum.toString();
 		
 		Scanner s=new Scanner (System.in);
 		
@@ -23,7 +23,7 @@ public class Reverse_Number {
 			 
 		}
 
-		System.out.println("The Reverse Number is: " +sum.toString());
+		System.out.println("The Reverse Number is: " +sum);
 	}
 
 }

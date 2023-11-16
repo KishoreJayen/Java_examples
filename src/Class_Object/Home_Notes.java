@@ -1,5 +1,6 @@
 package Class_Object;
 
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class Home_Notes {
@@ -57,7 +58,7 @@ for(int i=1; i<=n; i++) {
 		
 		
 		/*int n= 345689754;
-		int count =0;
+      		int count =0;
 		while(n>0) {
 			n=n/10;
 			count ++;
@@ -92,3 +93,49 @@ for(int i=1; i<=n; i++) {
 		
 	}
 	}*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+       /*int []a = {8,9,98,10,250};
+
+
+int temp=a.length;
+System.out.println(temp);
+
+for(int i=0; i<1; i++) {
+	System.out.print(Arrays.toString(a));
+
+}
+	
+	}
+}*/
+
+
+	
+	
+	
+	/*int count=1, total=1;
+	while(count<=5) {
+	 total= total*count;
+	 count++;
+		
+	}
+	
+	System.out.println("The Sum is **" +total+ "**");
+	
+	
+}	
+	
+}*/

@@ -1,11 +1,28 @@
 package Access_Modifier;
 
+import java.util.ArrayList;
 
 public class Rough {
 
 	public static void main(String[] args) {
 	
-	/*number(1);
+	int cpunt=0;
+	
+	for(int i=11; i<10; i--) {
+		cpunt++;
+	}
+	System.out.println(cpunt);
+	}
+	}
+		
+		
+		
+		
+		
+		
+		
+		
+		/*number(1);
 	
 	}
 	
@@ -67,17 +84,31 @@ public class Rough {
 
 
 
-int arr[]= {65,1,98,1,10,1,5,8,65,5,9,6,25,2,14,2};
-	 
+/*int arr[]= {65,1,10,1,5,65,6,2,14,2};
+	  ArrayList
+	   
 	
-	for(int i=1; i<arr.length; i++) {
+	}
+}*/
+
+
+
+
+
+
+
+
+
+
+
+/*for(int i=0; i<arr.length; i++) {
 		for(int j=i+1; j<arr.length; j++ ) {
 			if(arr[i]== arr[j])
-				System.out.print(arr[j]
+				System.out.print(arr[i]
 						+" ");
 		}
 	}
 	}
-}
+}*/
 
 		
