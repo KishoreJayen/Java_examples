@@ -13,12 +13,15 @@ class Node {
 	this.data= data;
 	this.next=null;
 }
+}
 
+class LinkedList{
+	
 
-public Node head= null;
-public Node tail= null;
+ Node head= null;
+ Node tail= null;
 
-public void addNode (int data) {
+public void insert (int data) {
 	
 		Node newNode = new Node (data);
 		
@@ -53,7 +56,20 @@ public class SingleLinkedList {
 
 	public static void main(String[] args) {
 	  
-		Node mn = new Node();
+		LinkedList sc = new LinkedList();	
+		sc.insert(10);
+		sc.insert(20);
+		sc.insert(30);
+		sc.insert(40);
+		sc.insert(50);
+		
+	
+		
+		
+		sc.display();
+		
+	
+		
 		
 		
 		

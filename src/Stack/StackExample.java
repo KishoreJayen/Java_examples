@@ -26,7 +26,7 @@ public class StackExample {
 		
 		mn.peek();
 		System.out.println("New" + mn);
-		mn.size();
+		System.out.println(mn.size());
 		
 		
 
