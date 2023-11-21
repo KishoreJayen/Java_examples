@@ -2,20 +2,20 @@ package Polymorph;
 
 public class Final {
 
+	Final(){
 	int a= 10;
-	int b =20;
-	String name;
+	int b=20;
+	int d= a+b;
+	System.out.println(d); //30
 	
-
-public void display() {
-	name= "ksks";
-	System.out.println(name);
-	System.out.println(a+b);
-	if(a<b) {
-		System.out.println("You are looking so good!!!");
-	}
-	else {
-		System.out.println("You are amazing.....!");
-	}
 }
+	void display() {
+		int n=8;
+		if(n%2==0) {
+			System.out.println("Even Number " + n);}
+			else {
+				System.out.println("odd");
+		}
+		
+	}
 }
