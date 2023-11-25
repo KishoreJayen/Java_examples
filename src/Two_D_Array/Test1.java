@@ -5,12 +5,13 @@ public class Test1 {
 	
  public void dani() {
 	int n=5878, sum=0;
-	while(n<0) {
+	while(n>0) {
 		int result=n%10;
 		sum=sum *10+result;
 		n=n/10;
-		System.out.println(sum);
 	}
+		System.out.println(sum);
+	
 }
 
  /*public void display() {
@@ -31,18 +32,8 @@ public static void main(String[] args) {
 	
 	
 	mn.dani();
-	s
+	
 }
-	
-
-	
-	
-	
-	
-	
-	
-	
-	
 }
 
 

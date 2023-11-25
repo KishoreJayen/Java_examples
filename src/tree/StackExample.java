@@ -1,4 +1,4 @@
-package Stack;
+package tree;
 
 import java.util.Stack;
 
@@ -17,7 +17,7 @@ public class StackExample {
 		
 		System.out.println(mn);
 		
-	                                            //	mn.peek();
+	      //mn.remove(2)   ;                                   //	mn.peek();
 		
 		int first_removed = mn.pop();
 		System.out.println(first_removed);

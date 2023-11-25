@@ -24,6 +24,8 @@ public class Test3 {
 	public static void main(String[] args) {
 		
 		Test3 vb = new Test3();
+		Test1 d = new Test1();
+		d.dani();
 		
 	 
 	}

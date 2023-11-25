@@ -9,7 +9,7 @@ public class First extends Final {
     	System.out.println(s+v);
 	}
     
-    void B() {
+  private  void B() {
     	int n=987;
     	System.out.println("Before the Reverse Number is: "+n);
     	int result, sum=0;

@@ -3,9 +3,39 @@ package Class_Program;
 import java.util.Scanner;
 
 public class Tech_Number {
+	
 
 	public static void main(String[] args) {
-		Scanner s=new Scanner(System.in);
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	}	
+	}
+		
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		/*Scanner s=new Scanner(System.in);
 		int a,b,c,x;
 		System.out.println("Enter the number:");
 		a=s.nextInt();
@@ -19,4 +49,4 @@ public class Tech_Number {
 
 	}
 
-}
+}*/

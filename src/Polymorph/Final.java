@@ -9,7 +9,7 @@ public class Final {
 	System.out.println(d); //30
 	
 }
-	void display() {
+	protected void display() {
 		int n=8;
 		if(n%2==0) {
 			System.out.println("Even Number " + n);}

@@ -1,6 +1,7 @@
 package Queue;
 
 import java.util.ArrayList;
+import java.util.Iterator;
 import java.util.LinkedList;
 import java.util.Queue;
 
@@ -14,10 +15,13 @@ public class QueueExample {
 		que.offer(50);
 		que.offer(60);
 		
-		System.out.println(que);
 		
-	que.poll()	;
-	System.out.println(que);
+		System.out.println(que);
+
+		
+	  que.poll();// FIFO>>First in first out
+	  que.remove(1);
+	  System.out.println(que);
 	System.out.println("Peek: "
 			+que.peek());
 
