@@ -29,6 +29,8 @@ public class MainTree {
 		TreeTraversal mn = new TreeTraversal(root);
 		
 		System.out.println("Mirror Tree"+ mn.mirror(root));
+		TreeNode<Integer> mirror = mn.mirror(root);
+		
 		
 		
 		System.out.println("Inorder");
