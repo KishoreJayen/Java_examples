@@ -45,14 +45,16 @@ public void insertatbeggining(int val) {
 		
 		Node newNode = new Node(val);
 		newNode.next= head;
-		if(head== null) {	
+		if(head==null) {
 			tail = newNode;
 		}
-		else {
-			head.pre=newNode;
-			head= newNode;
-		}
+		else { 
+			head.pre = newNode;	
+		}	
+		head = newNode;
+		
 	}
+
 
  public static void main(String[] args) {
 	List1 mn = new  List1();

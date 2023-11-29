@@ -12,3 +12,4 @@ public Node(A data){
  
 }
 }
+ 

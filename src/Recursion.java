@@ -14,7 +14,6 @@ public class Recursion {
 	
 	public static void main(String[] args) {
 		int n=1, total=1;
-		sum(n, total);
 		int result= sum(n, total);
 		System.out.println(result);
 	}

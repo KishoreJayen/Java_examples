@@ -28,7 +28,7 @@ public class HashClass {
 	hash.replace("123459", "Vikram");
 	System.out.println(hash.values());
 		
-       	 
+	
 	String str= "123456";
 	
 	 
@@ -39,9 +39,6 @@ public class HashClass {
 	}	
 	});
 	System.out.println(str +" contains:: "+ answer);
-	
-	
-
 	
 
 	

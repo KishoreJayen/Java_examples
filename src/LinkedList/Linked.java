@@ -67,30 +67,46 @@ public class Linked {
 		
 		head = prev;
 	}
+	public void insertAtend(int val) {
+		Node newNode = new Node(val);
+		
+		if(tail.next != null) {
+			tail= newNode;
+		}
+		else {
+			tail.next= newNode;
+			tail= newNode;
+			}
+	}
  public static void main(String[] args) {
 	 Linked mn = new  Linked();
 	 
 	 mn.addNodes(10);
-	 mn.addNodes(20);
+	 mn.addNodes(20); 
 	 mn.addNodes(30);
 	 mn.addNodes(40);
 	 mn.addNodes(50);
+	 mn.addNodes(60);
 	 
 	 mn.insertatbeggining(5);
+	 mn.insertAtend(80);
 	 mn.insertatbeggining(2);
-	 
-	 
+     mn.insertatbeggining(1);
+	 mn.insertAtend(100);
 	 mn.display();
 	 System.out.println();
 	 
+	
 	 
 	
 	 System.out.println("After Reverse" );
 	 mn.reverse();
 	 mn.display();
 	
-	 
+	
+	
 }
+ 
 	 
 }
 

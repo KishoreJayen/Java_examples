@@ -39,4 +39,15 @@ if(currentRoot != null) {
 }
 
 }
+public void search(Node<Integer> currentRoot) {
+	
+	Node<Integer> search= root;
+	if(search == currentRoot) {
+		System.out.println("True");
+	}
+	
+	if(search != currentRoot) {
+		System.out.println("False");
+	}
+}
 }
