@@ -5,6 +5,46 @@ import java.util.ArrayList;
 public class Rough {
 
 	public static void main(String[] args) {
+		int arr[]= {87,54,1,2,99,989,25};
+		
+		System.out.println(min(arr));
+		
+	}
+	 
+	static int min(int arr[]) {
+		int temp = arr[0];
+		
+		for(int i=0; i<arr.length; i++) {
+			
+			if (arr[i] > temp) {
+				temp= arr[i];	
+			}			
+		}
+		return  temp;
+		
+		
+	}
+	
+	
+	
+	
+}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	/*public static void main(String[] args) {
 	
 	int cpunt=0;
 	
@@ -13,7 +53,7 @@ public class Rough {
 	}
 	System.out.println(cpunt);
 	}
-	}
+	}*/
 		
 		
 		

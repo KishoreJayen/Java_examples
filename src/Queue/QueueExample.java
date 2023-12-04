@@ -31,6 +31,8 @@ public class QueueExample {
 	
 	System.out.println(que);
 	
+
+	System.out.println();
 	
 	
 	

@@ -40,6 +40,27 @@ public class Linked {
 		}
 	}
 	
+	 public void deleteStart() {
+	        if (head == null){ // not possible to delete
+		            return;
+		        } 
+	        else {
+	        System.out.println("Deleted: " + head.data);
+	      
+	        head = head.next;
+	    }}
+	 public void deleteEnd() {
+	        if (tail == null){ // not possible to delete
+		            return;
+		        } 
+	        else {
+		        System.out.println("Deleted: " + tail.data);
+		      
+		   
+		    
+	        }
+	       	 }
+	
 	public void insertatbeggining(int val) {
 		
 		Node newNode = new Node(val);
@@ -78,6 +99,9 @@ public class Linked {
 			tail= newNode;
 			}
 	}
+	
+
+	
  public static void main(String[] args) {
 	 Linked mn = new  Linked();
 	 
@@ -87,17 +111,29 @@ public class Linked {
 	 mn.addNodes(40);
 	 mn.addNodes(50);
 	 mn.addNodes(60);
+	
+		mn.display();
+		System.out.println();
+	
+	 mn.deleteStart();
+	 mn.display();
+	 System.out.println();
+	 
+	 mn.deleteEnd();
+	 mn.display();
+		
 	 
 	 mn.insertatbeggining(5);
 	 mn.insertAtend(80);
 	 mn.insertatbeggining(2);
      mn.insertatbeggining(1);
 	 mn.insertAtend(100);
+	 
+	 System.out.println();
 	 mn.display();
 	 System.out.println();
 	 
 	
-	 
 	
 	 System.out.println("After Reverse" );
 	 mn.reverse();

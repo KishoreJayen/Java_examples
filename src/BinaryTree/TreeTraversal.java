@@ -1,5 +1,7 @@
 package BinaryTree;
 
+import BinarySearchTree.MainTree.Node;
+
 public class TreeTraversal {
 	
 	TreeNode <Integer> root;
@@ -56,4 +58,24 @@ public class TreeTraversal {
 		return currentRoot;
 		}
 	}
+	
+	 public int height(TreeNode <Integer> currentRoot) {
+		 if (root == null) {
+			 return 0;
+		 }
+		int leftheight = height(root.left);
+		int rightheight = height(root.right);
+		
+		if(leftheight < rightheight) {
+			return
+					leftheight = leftheight +1;
+		}else {
+			return
+					rightheight = rightheight+1;
+		}
+
+			
+		 
+	 }
+
 	}

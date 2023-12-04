@@ -42,7 +42,7 @@ public class MainTree {
 		 System.out.println("Pre Order");
 		 mn.preOrder(root);
 		
-		
+		System.out.println(mn.height(root));
 		
 		
 	

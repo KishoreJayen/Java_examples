@@ -6,11 +6,11 @@ public class Find_Occurance {
 
 
 		Scanner s= new Scanner(System.in);
-		System.out.println("Enter the Elements you want in array: ");
+		
 		int n=s.nextInt();
 		int count =0;
 		int arr[]= new int [n];
-		System.out.println("Enter all the elements: ");
+		
 		 for (int i=0; i<n; i++) 
 		{
 			arr[i]=s.nextInt();
@@ -27,7 +27,7 @@ public class Find_Occurance {
 				System.out.println("Number of occurance of the elements: "+count);
 		}
 		
-				
+}	
 		}
 		
 
