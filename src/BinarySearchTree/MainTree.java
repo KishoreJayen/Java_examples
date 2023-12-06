@@ -94,7 +94,7 @@ public Node insert (Node root, int data) {
    }
  
   
- public int height( Node root) {
+ /*public int height( Node root) {
 	 if (root == null) {
 		 return 0;
 	 }
@@ -107,7 +107,7 @@ public Node insert (Node root, int data) {
 	}else {
 		return
 				rightheight = rightheight+1;
-	}
+	}*/
 
 		
 	 

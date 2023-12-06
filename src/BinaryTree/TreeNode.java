@@ -9,8 +9,8 @@ public class TreeNode <K>{
 		
 		TreeNode(K val){
 			this.data=val;
-			this.right=null;
-			this.left= null;
+			this.right= left=null;
+			//this.left= null;
 			
 		}
 	}

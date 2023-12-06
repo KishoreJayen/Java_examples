@@ -1,6 +1,6 @@
 package BinaryTree;
 
-import BinarySearchTree.MainTree.Node;
+
 
 public class TreeTraversal {
 	
@@ -60,22 +60,47 @@ public class TreeTraversal {
 	}
 	
 	 public int height(TreeNode <Integer> currentRoot) {
-		 if (root == null) {
+		 if (currentRoot == null) {
 			 return 0;
 		 }
-		int leftheight = height(root.left);
-		int rightheight = height(root.right);
+		int leftheight = height(currentRoot.left);
+		int rightheight = height(currentRoot.right);
 		
-		if(leftheight < rightheight) {
+		if(leftheight > rightheight) {
 			return
 					leftheight = leftheight +1;
 		}else {
 			return
 					rightheight = rightheight+1;
-		}
-
-			
-		 
+		}	 
 	 }
-
-	}
+	public int diameter(TreeNode <Integer> currentRoot) {
+		
+		if(currentRoot == null)
+		{
+			return 0;
+			}
+		else {
+			int leftheight = height (currentRoot.left);
+			int rightheight = height (currentRoot.right);
+			
+			int leftDia = diameter (currentRoot.left);
+			int rightDia =  diameter (currentRoot.right);
+		
+			
+return Math.max((leftheight + rightheight+1), Math.max(leftDia, rightDia));		
+			
+			//if((leftheight + rightheight + 1) > (leftDia+rightDia))
+			//{
+				//return leftheight +rightheight+1;
+						
+			//}else {
+				//return leftDia+rightDia;
+				
+				
+					//}	 
+		}	
+		}
+	
+	
+}

@@ -3,7 +3,7 @@ package BinaryTree;
 public class MainTree {
 	public static void main(String[] args) {
 		
-	/*	C
+	/*
 		  root.left= new TreeNode<Integer>(6);
 		   root.right= new TreeNode<Integer>(5);
 		   root.left.left= new TreeNode<Integer> (9);
@@ -26,11 +26,7 @@ public class MainTree {
         root.left.right= new TreeNode <Integer>(9);
         root.left.right.right= new TreeNode <Integer> (2);
 		
-		TreeTraversal mn = new TreeTraversal(root);
-		
-		System.out.println("Mirror Tree"+ mn.mirror(root));
-		TreeNode<Integer> mirror = mn.mirror(root);
-		
+        TreeTraversal mn = new TreeTraversal(root);
 		
 		
 		System.out.println("Inorder");
@@ -41,11 +37,16 @@ public class MainTree {
 		 
 		 System.out.println("Pre Order");
 		 mn.preOrder(root);
+		 
+		 System.out.println("------------");
 		
 		System.out.println(mn.height(root));
 		
+		System.out.println("-------------");
+		System.out.println(mn.diameter(root));
 		
 	
+		
 		
 	}
 
