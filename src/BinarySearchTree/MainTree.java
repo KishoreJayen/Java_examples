@@ -1,5 +1,6 @@
 package BinarySearchTree;
 
+import BinaryTree.TreeNode;
 import tree.Node;
 
 public class MainTree {
@@ -94,7 +95,7 @@ public Node insert (Node root, int data) {
    }
  
   
- /*public int height( Node root) {
+ public int height( Node root) {
 	 if (root == null) {
 		 return 0;
 	 }
@@ -107,24 +108,51 @@ public Node insert (Node root, int data) {
 	}else {
 		return
 				rightheight = rightheight+1;
-	}*/
-
-		
-	 
+	}
  }
+public int diameter(Node root) {
+	
+	if(root == null)
+	{
+		return 0;
+		}
+	else {
+		int leftheight = height (root.left);
+		int rightheight = height (root.right);
+		
+		int leftDia = diameter (root.left);
+		int rightDia =  diameter (root.right);
+	
+		
+return Math.max((leftheight + rightheight+1), Math.max(leftDia, rightDia));		
+		
+	}
+}
 
+
+
+public static Node lca(Node root,  Node q) {
+    if (root == null  || root == q) {
+        return root;
+    }
+
+    if (q.key < root.key) {
+        return lca(root.left,  q);
+    } else
+
+if ( q.key > root.key) {
+        return lca(root.right,  q);
+    } else {
+        return root;
+    }
+}
+}
    
    
+ 
    
    
-   
-   
-   
-   
-   
-   
-   
-  /* public Node delete(Node root, int data) {
+ /* public Node delete(Node root, int data) {
 	   root = delete(root,data); 
 	   
 	   if (root==null)
@@ -146,6 +174,6 @@ public Node insert (Node root, int data) {
 	  
    }*/
       
-   }
+   
 	
 

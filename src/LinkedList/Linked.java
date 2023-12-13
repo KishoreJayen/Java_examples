@@ -75,18 +75,19 @@ public class Linked {
 	}
 	
 	public void reverse() {
-		Node prev = null;
+		Node tail = null;
 		Node current = head;
 		Node next = head.next;
 		
 		while(current!=null) {
 			next=current.next;
-			current.next = prev; 
-			prev = current;
+			current.next = tail; 
+			tail = current;
 			current = next;
+			head = tail;
 		}
 		
-		head = prev;
+		
 	}
 	public void insertAtend(int val) {
 		Node newNode = new Node(val);
@@ -100,7 +101,6 @@ public class Linked {
 			}
 	}
 	
-
 	
  public static void main(String[] args) {
 	 Linked mn = new  Linked();

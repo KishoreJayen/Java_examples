@@ -41,13 +41,9 @@ public class List1{
  			temp = current;
  			current = current.next;
  		}
- 		System.out.print("Print in Reverse ");
- 		while(temp != null) {
- 			System.out.println(temp.data+ " ");
- 			temp= temp.pre;
- 		}
- 	}
+ 		
  	
+}
 public void insertatbeggining(int val) {
 		
 		Node newNode= new Node(val);
@@ -55,7 +51,8 @@ public void insertatbeggining(int val) {
 		if(head==null) {
 			head = newNode;
 		}
-		else {
+	  	else {
+			
 			head.pre=newNode;
 			head= newNode;
 		}
@@ -77,18 +74,18 @@ public void insertAtend (int val) {
  public static void main(String[] args) {
 	List1 mn = new  List1();
 	 
-	 mn.addNodes(10);
-	 mn.addNodes(20);
-	 mn.insertatbeggining(300);
+	 mn.addNodes(40);
+	 mn.addNodes(50);
+	// mn.insertatbeggining(300);
 	
 
 	 mn.addNodes(30);
-	 mn.addNodes(40);
-	 mn.addNodes(50);
-	 
+	 mn.addNodes(60);
+	 mn.addNodes(20);
+	 mn.addNodes(10);
 	
 	 mn.display();
-	 System.out.println();
+	// System.out.println();
 	 
 	 
 	

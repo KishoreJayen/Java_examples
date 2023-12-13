@@ -20,12 +20,14 @@ public class TreeNode {
 
 		mc.search(mc.root, 20);
 		
-		 System.out.println(mc.FindMaximun(mc.root));
-		System.out.println(mc.FindMinimun(mc.root));
-		mc.inorder (mc.root);
-		 
+		 System.out.println("The maximum number is: "+mc.FindMaximun(mc.root));
+		System.out.println("The miminum number is: "+mc.FindMinimun(mc.root));
+		
+		System.out.println(mc.height(mc.root));
+		System.out.println(mc.diameter(mc.root));
 		
 		 
+		//System.out.println(mc.lca(mc.root));
 	}
 }
 
